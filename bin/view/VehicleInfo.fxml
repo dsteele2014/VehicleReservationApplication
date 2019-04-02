@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #003B6D;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VehicleInfoController">
+   <children>
+      <Region layoutX="84.0" layoutY="42.0" prefHeight="80.0" prefWidth="433.0" style="-fx-background-color: #1B83B6;" />
+      <Label fx:id="car" alignment="CENTER" layoutX="138.0" layoutY="63.0" prefHeight="39.0" prefWidth="324.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="542.0" layoutY="9.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red; -fx-border-color: black;" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="closeButton" layoutX="85.0" layoutY="517.0" mnemonicParsing="false" onAction="#close" prefHeight="46.0" prefWidth="106.0" text="Close" />
+      <Region layoutX="84.0" layoutY="163.0" prefHeight="322.0" prefWidth="433.0" style="-fx-background-color: #1B83B6;" />
+      <Button layoutX="221.0" layoutY="517.0" mnemonicParsing="false" onAction="#reserve" prefHeight="46.0" prefWidth="295.0" text="Reserve Vehicle" />
+      <VBox layoutX="130.0" layoutY="191.0">
+         <children>
+            <GridPane prefHeight="180.0" prefWidth="255.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="104.0" minWidth="10.0" prefWidth="104.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="96.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Capacity:">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="capacity" prefHeight="19.0" prefWidth="149.0" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Mpg:" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Transmission:" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Pickup Date:" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Total Price:" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Return Date:" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mpg" prefHeight="19.0" prefWidth="147.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="trans" prefHeight="19.0" prefWidth="147.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="pickupdate" prefHeight="19.0" prefWidth="148.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="returndate" prefHeight="19.0" prefWidth="146.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="price" prefHeight="19.0" prefWidth="145.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+      <Label layoutX="121.0" layoutY="401.0" text="After you reserve your vehicle you will recieve a confirmation">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="418.0" text="with the details regarding your reservation.">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

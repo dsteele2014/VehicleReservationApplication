@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+	<account type = "employee">
+		<username>employee1</username>
+		<password>password1</password>
+	</account>
+	<account type = "employee">
+		<username>employee2</username>
+		<password>password2</password>
+	</account>
+	<account type = "employee">
+		<username>employee3</username>
+		<password>password3</password>
+	</account>
+	<account type = "employee">
+		<username>employee4</username>
+		<password>password4</password>
+	</account>
+</login>

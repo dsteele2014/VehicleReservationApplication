@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #003B6D;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <Region layoutX="84.0" layoutY="100.0" prefHeight="200.0" prefWidth="433.0" style="-fx-background-color: #1B83B6;" />
+      <Button layoutX="225.0" layoutY="359.0" mnemonicParsing="false" onAction="#nextEmployeePage" prefHeight="46.0" prefWidth="151.0" text="Employee Sign In" />
+      <Label layoutX="142.0" layoutY="181.0" text="Car Rental Application">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="542.0" layoutY="9.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red; -fx-border-color: black;" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="225.0" layoutY="434.0" mnemonicParsing="false" onAction="#nextCustomerPage" prefHeight="46.0" prefWidth="151.0" text="Continue As Customer" />
+      <Button layoutX="247.0" layoutY="508.0" mnemonicParsing="false" onAction="#close" prefHeight="46.0" prefWidth="106.0" text="Exit" />
+   </children>
+</AnchorPane>

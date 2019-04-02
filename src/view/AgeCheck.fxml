@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="300.0" style="-fx-border-color: #ED0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AgeCheckController">
+   <children>
+      <Button fx:id="closeButton" layoutX="54.0" layoutY="118.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="37.0" prefWidth="67.0" text="Cancel" />
+      <Button fx:id="agreeButton" layoutX="179.0" layoutY="118.0" mnemonicParsing="false" onAction="#agreeButtonAction" prefHeight="37.0" prefWidth="67.0" text="Agree" />
+      <Label layoutX="37.0" layoutY="36.0" prefHeight="17.0" prefWidth="226.0" text="If you are under the age of 25 you will be" />
+      <Label layoutX="54.0" layoutY="53.0" prefHeight="17.0" prefWidth="192.0" text="required to pay additional charges." />
+      <Label layoutX="79.0" layoutY="82.0" prefHeight="17.0" prefWidth="142.0" text="Do you wish to continue?" />
+   </children>
+</AnchorPane>

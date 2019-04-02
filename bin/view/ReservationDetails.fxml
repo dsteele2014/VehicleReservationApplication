@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReservationDetailsController">
+   <children>
+      <Region layoutY="-1.0" prefHeight="113.0" prefWidth="561.0" style="-fx-background-color: #1B83B6;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label layoutX="145.0" layoutY="40.0" text="Reservation Details">
+         <font>
+            <Font name="Book Antiqua" size="36.0" />
+         </font>
+      </Label>
+      <VBox layoutX="96.0" layoutY="172.0">
+         <children>
+            <GridPane hgap="40.0" layoutX="153.0" layoutY="315.0" prefHeight="224.0" prefWidth="408.0" vgap="10.0" AnchorPane.leftAnchor="153.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="250.0">
+               <children>
+                  <TextField fx:id="pickupLocation" prefHeight="25.0" prefWidth="200.0" styleClass="text-field-class" GridPane.columnIndex="1" />
+                  <TextField fx:id="returnLocation" styleClass="text-field-class" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="pickupDate" promptText="mm/dd/yyyy" styleClass="text-field-class" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="returnDate" promptText="mm/dd/yyyy" styleClass="text-field-class" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label text="Pickup location:" />
+                  <Label text="Return location:" GridPane.rowIndex="1" />
+                  <Label text="Pickup date:" GridPane.rowIndex="2" />
+                  <Label text="Return date:" GridPane.rowIndex="3" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="198.0" minWidth="10.0" prefWidth="149.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="236.0" minWidth="10.0" prefWidth="236.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </VBox>
+      <Button layoutX="342.0" layoutY="430.0" mnemonicParsing="false" onAction="#submit" prefHeight="36.0" prefWidth="60.0" text="Next" AnchorPane.rightAnchor="159.0" />
+      <Button layoutX="126.0" layoutY="430.0" mnemonicParsing="false" onAction="#goBack" prefHeight="36.0" prefWidth="60.0" text="Back" AnchorPane.leftAnchor="126.0" />
+      <Button layoutX="532.0" layoutY="-1.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red; -fx-border-color: black;" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="error" alignment="CENTER" layoutX="89.0" layoutY="135.0" prefHeight="25.0" prefWidth="423.0" textFill="RED" />
+   </children>
+</AnchorPane>

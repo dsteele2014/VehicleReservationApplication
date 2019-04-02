@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #003B6D;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConfirmationController">
+   <children>
+      <Region layoutX="52.0" layoutY="83.0" prefHeight="386.0" prefWidth="488.0" style="-fx-background-color: #1B83B6;" />
+      <Label layoutX="98.0" layoutY="90.0" text="Thank you for your business!">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="542.0" layoutY="9.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red; -fx-border-color: black;" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="243.0" layoutY="510.0" mnemonicParsing="false" onAction="#close" prefHeight="46.0" prefWidth="106.0" text="Close" />
+      <Label layoutX="121.0" layoutY="129.0" prefHeight="39.0" prefWidth="156.0" text="Confirmation #:">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="confnum" layoutX="277.0" layoutY="129.0" prefHeight="39.0" prefWidth="204.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="171.0" prefHeight="39.0" prefWidth="210.0" text="Reservation Details-">
+         <font>
+            <Font name="Book Antiqua Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="197.0" prefHeight="39.0" prefWidth="52.0" text="Name:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="220.0" prefHeight="39.0" prefWidth="104.0" text="Email address:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="243.0" prefHeight="39.0" prefWidth="119.0" text="Phone number:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="268.0" prefHeight="39.0" prefWidth="94.0" text="Pickup Date:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="291.0" prefHeight="39.0" prefWidth="107.0" text="Dropoff Date:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="317.0" prefHeight="39.0" prefWidth="129.0" text="Pickup Location:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="340.0" prefHeight="39.0" prefWidth="133.0" text="Dropoff Location:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="375.0" prefHeight="39.0" prefWidth="76.0" text="Vehicle:">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="406.0" prefHeight="39.0" prefWidth="52.0" text="Price:">
+         <font>
+            <Font name="Book Antiqua Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" layoutX="268.0" layoutY="207.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" layoutX="268.0" layoutY="226.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="phone" layoutX="268.0" layoutY="249.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="pickupdate" layoutX="268.0" layoutY="274.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="dropoffdate" layoutX="268.0" layoutY="297.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="pickuploc" layoutX="268.0" layoutY="323.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="dropoffloc" layoutX="268.0" layoutY="346.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="car" layoutX="268.0" layoutY="381.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price" layoutX="268.0" layoutY="412.0" prefHeight="27.0" prefWidth="230.0">
+         <font>
+            <Font name="Book Antiqua Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

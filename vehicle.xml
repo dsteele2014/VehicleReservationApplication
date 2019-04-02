@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicle>
+	<car type = "compact">
+		<make>Hyundai</make>
+		<model>Sonata</model>
+		<capacity>6</capacity>
+		<mpg>35</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "compact">
+		<make>Kia</make>
+		<model>Soul</model>
+		<capacity>5</capacity>
+		<mpg>30</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "compact">
+		<make>Nissan</make>
+		<model>Rouge</model>
+		<capacity>5</capacity>
+		<mpg>33</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "compact">
+		<make>Ram</make>
+		<model>1500 Quad Cab</model>
+		<capacity>4</capacity>
+		<mpg>29</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "compact">
+		<make>Chevrolet</make>
+		<model>Express</model>
+		<capacity>2</capacity>
+		<mpg>17</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "standard">
+		<make>Hyundai</make>
+		<model>Volester</model>
+		<capacity>5</capacity>
+		<mpg>38</mpg>
+		<trans>Mannual</trans>
+	</car>
+	<car type = "standard">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "standard">
+		<make>Mitsubishi</make>
+		<model>Mirage</model>
+		<capacity>4</capacity>
+		<mpg>43</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "standard">
+		<make>Buick</make>
+		<model>Verano</model>
+		<capacity>5</capacity>
+		<mpg>31</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "standard">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	
+	<car type = "economy">
+		<make>Hyundai</make>
+		<model>Volester</model>
+		<capacity>5</capacity>
+		<mpg>38</mpg>
+		<trans>Mannual</trans>
+	</car>
+	<car type = "economy">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "economy">
+		<make>Mitsubishi</make>
+		<model>Mirage</model>
+		<capacity>4</capacity>
+		<mpg>43</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "economy">
+		<make>Buick</make>
+		<model>Verano</model>
+		<capacity>5</capacity>
+		<mpg>31</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "economy">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	
+	<car type = "pickup">
+		<make>Hyundai</make>
+		<model>Volester</model>
+		<capacity>5</capacity>
+		<mpg>38</mpg>
+		<trans>Mannual</trans>
+	</car>
+	<car type = "pickup">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "pickup">
+		<make>Mitsubishi</make>
+		<model>Mirage</model>
+		<capacity>4</capacity>
+		<mpg>43</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "pickup">
+		<make>Buick</make>
+		<model>Verano</model>
+		<capacity>5</capacity>
+		<mpg>31</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "pickup">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	
+	<car type = "suv">
+		<make>Hyundai</make>
+		<model>Volester</model>
+		<capacity>5</capacity>
+		<mpg>38</mpg>
+		<trans>Mannual</trans>
+	</car>
+	<car type = "suv">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "suv">
+		<make>Mitsubishi</make>
+		<model>Mirage</model>
+		<capacity>4</capacity>
+		<mpg>43</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "suv">
+		<make>Buick</make>
+		<model>Verano</model>
+		<capacity>5</capacity>
+		<mpg>31</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "suv">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	
+	<car type = "minivan">
+		<make>Hyundai</make>
+		<model>Volester</model>
+		<capacity>5</capacity>
+		<mpg>38</mpg>
+		<trans>Mannual</trans>
+	</car>
+	<car type = "minivan">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "minivan">
+		<make>Mitsubishi</make>
+		<model>Mirage</model>
+		<capacity>4</capacity>
+		<mpg>43</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "minivan">
+		<make>Buick</make>
+		<model>Verano</model>
+		<capacity>5</capacity>
+		<mpg>31</mpg>
+		<trans>Automatic</trans>
+	</car>
+	<car type = "minivan">
+		<make>Nissan</make>
+		<model>Altima</model>
+		<capacity>5</capacity>
+		<mpg>39</mpg>
+		<trans>Automatic</trans>
+	</car>
+</vehicle>
